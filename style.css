@@ -7,6 +7,7 @@ section{
 background: linear-gradient(to bottom, orange, white, white, green);
 border-style: outset;
 border-radius: 15px;
+background-repeat: no-repeat;
 }
 
 footer{
