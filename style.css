@@ -1,0 +1,127 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+section{
+background: linear-gradient(to bottom, orange, white, white, green);
+border-style: outset;
+border-radius: 15px;
+}
+
+footer{
+background-color: green;
+text-align: center;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: orange;
+color: blue;
+padding: 15px 40px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+img{
+border-radius: 25px;
+}
+
+nav{
+background: orange;
+text-align: center;
+font-weight: bold;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+nav a{
+text-decoration: none;
+color: blue;
+font-size: 18px;
+padding: 10px 18px;
+border-radius: 8px;
+transition: 0.3s ease;
+}
+
+nav a:hover{
+color: red;
+}
+
+h2{
+color: blue;
+text-decoration: underline;
+}
+
+h3{
+color: green;
+text-align: center;
+}
+
+aside{
+margin-top: 20px;
+}
+
+
+.notice{
+color: blue;
+}
+
+section{
+flex: 1;
+padding: 20px;
+box-sizing: border-box;
+}
+
+main{
+display: flex;
+flex-wrap: wrap;
+}
+
+.button{
+background: linear-gradient(90deg, #0d47a1, #1976d2);
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 25px;
+font-size: 16px;
+font-family: Arial, sans-serif;
+cursor: pointer;
+transition: transform 0.2s, box-shadow 0.2s;
+text-decoration: none;
+display: inline-block;
+}
+
+.button:hover{
+transform: translateY(-3px);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+color: cyan;
+}
+
+body{
+animation: fadeIn 1.5s ease-in-out;
+background: linear-gradient(to bottom, #FF9933, white, #138808);
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+}
+
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+@keyframes textFadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+h1, h2, h3, p, a, ul, li, .button{
+animation: textFadeIn 2s ease-in-out;
+}
+
+h1{
+font-size: 28px;
+font-weight: bold;
+}
