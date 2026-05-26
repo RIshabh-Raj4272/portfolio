@@ -105,6 +105,7 @@ animation: fadeIn 1.5s ease-in-out;
 background: linear-gradient(to bottom, #FF9933, white, #138808);
 margin: 0;
 font-family: 'Segoe UI', sans-serif;
+background-repeat: no-repeat;
 }
 
 @keyframes fadeIn {
